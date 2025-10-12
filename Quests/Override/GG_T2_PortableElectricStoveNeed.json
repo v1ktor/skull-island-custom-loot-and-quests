@@ -1,0 +1,46 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Portable Kitchen",
+  "Description": "I'm in need for a Portable Electric Stove. You know its quite nice to cook some food while not at home.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 900,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Cooking",
+          "Experience": 18000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Grinding_Stone_01",
+          "Price": 1100,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Portable Electric Stove",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Portable_Electric_Stove"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

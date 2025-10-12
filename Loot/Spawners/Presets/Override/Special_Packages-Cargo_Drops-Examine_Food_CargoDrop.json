@@ -1,0 +1,15 @@
+{
+	"FixedItems": [
+		"MRE_Stew",
+		"MRE_TunaSalad",
+		"Water_05l",
+		"Water_05l",
+		"Coffee",
+		"Coffee"
+	],
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 0,
+	"RandomDamage": 0,
+	"InitialUsage": 0,
+	"RandomUsage": 0
+}

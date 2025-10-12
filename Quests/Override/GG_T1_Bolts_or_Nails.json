@@ -1,0 +1,47 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Bolts or Nails",
+  "Description": "Im in need of bolts and nails for some work i have to do in the shop, if you would be so kind could you bring me 10 bolts or nails i make it worth your time.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 750,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Engineering",
+          "Experience": 10000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Tool_Box_Small",
+          "Price": 450,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 10 Bolts or Nails",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Bolts",
+            "Nails"
+          ],
+          "RequiredNum": 10
+        }
+      ]
+    }
+  ]
+}

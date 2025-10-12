@@ -1,0 +1,42 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "9mm Ammoboxes",
+  "Description": "9mm ammoboxes are about to run out of stock, and throwing rocks is primitive. Find and bring me 3 boxes of 9mm and get a prize.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1350,
+      "Fame": 5,
+      "TradeDeals": [
+        {
+          "Item": "Cal_5_56x45mm_Ammobox",
+          "Price": 700,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 3 Ammoboxes of 9mm",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Cal_9mm_Ammobox",
+            "Cal_9mm_AP_Ammobox",
+            "Cal_9mm_Ammobox_TR"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

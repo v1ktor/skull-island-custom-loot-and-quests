@@ -1,0 +1,61 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "Dirtbike Fixing",
+  "Description": "I need you to bring me some Dirtbike Parts.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Motorcycle",
+          "Experience": 20000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Small_Vehicle_StorageRack",
+          "Price": 1000,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring a Dirtbike Front Shield",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Dirtbike_Front_Shield_Item"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Bring a Motorbike Battery",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Motorbike_Battery"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

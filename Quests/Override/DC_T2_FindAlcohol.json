@@ -1,0 +1,47 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Bring Isopropyl Alcohol",
+  "Description": "I always recommend to disinfect anything you put on open wounds. If you have internal problems, like if your soul hurts, there are other types of liquid treatments, just dont drink this one. Start by looting hospitals and pharmacies, also check car repair shops, just don't ask me what mechanics are using it for.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 850,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 18000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Emergency_bandage_Big",
+          "Price": 1200,
+          "Amount": 2,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring Isopropyl Alcohol 1x",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Isopropyl_alcohol"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 5,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

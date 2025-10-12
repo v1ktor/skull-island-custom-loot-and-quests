@@ -1,0 +1,56 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "The Big Vern Legend",
+  "Description": "Have you ever heard of “The Big Vern”? Its known to be a goat thats been worshipped and has its own statue on Zargorje town or as the locals call it “Goat Town”. Legend says that goat has quite a rebelious character and its been known to cause chaos that led many people to meet their demise. I been hearing rumours that it has been wandering on the island and i need you to hunt it down and bring me its head. ",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2500,
+      "Fame": 25,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 25000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Military_Backpack_02_02",
+          "Price": 700,
+          "Amount": 2,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Hunt Down the “Big Vern” Goat",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 1,
+      "TargetCharacters": [
+        "BP_Goat2"
+      ]
+    },
+    {
+      "TrackingCaption": "Bring “Big Vern” Goat Head",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Goat_Head"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

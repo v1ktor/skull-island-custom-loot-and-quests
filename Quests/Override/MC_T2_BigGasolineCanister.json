@@ -1,0 +1,52 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "A Big Fill",
+  "Description": "I'm in need of a Big Gasoline Canister to store more fuel. Can you fetch me one?",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 18000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Rager_Wheel_ArmorHeavy_FrontLeft_Item",
+          "Price": 200,
+          "Amount": 1,
+          "Fame": 0
+        },
+        {
+          "Item": "Rager_Wheel_ArmorHeavy_FrontRight_Item",
+          "Price": 200,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Big Gasoline Canister",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Gasoline_Canister"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

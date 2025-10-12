@@ -1,0 +1,41 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Animal Trophy",
+  "Description": "I got a request for animal heads that will be used like trophies. I need you to bring me 1 animal head (Wolf, Bear, Boar, Goat or Horse).",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 800,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 12500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Animal Head",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Bear_Head",
+            "Boar_Head",
+            "Goat_Head",
+            "Wolf_Head",
+            "Horse_Head"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

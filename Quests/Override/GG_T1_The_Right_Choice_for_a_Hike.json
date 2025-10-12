@@ -1,0 +1,41 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "The Right Choice for a Hike",
+  "Description": "Do you feel like you want to go for a hike? Well if you want to go far then the right footwear will make a difference. Bring me 1 pair of hiking boots.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 700,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 pair of Hiking Boots",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Hiking_Boots_01",
+            "Hiking_Boots_02",
+            "Hiking_Boots_03",
+            "Hiking_Boots_04"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

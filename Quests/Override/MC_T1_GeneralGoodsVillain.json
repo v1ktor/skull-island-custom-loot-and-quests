@@ -1,0 +1,46 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 1,
+  "Title": "General Goods Villain",
+  "Description": "I think the General Goods Trader is selling fuel under the table. According to our cartel agreement, he’s not allowed to do that. Get me a pair of binoculars so I can check it out — because if it’s true, he’s got a problem!",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 900,
+      "Fame": 8,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 10000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Gasoline_Canister",
+          "Price": 300,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring Binoculars 1x",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Binoculars"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

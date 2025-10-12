@@ -1,0 +1,93 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "Sharp Practice Runs",
+  "Description": "Those annoying puppets could do with a haircut. Take a sharp weapon and trim them around the neck area, that's modern these days. Have fun!",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "MeleeWeapons",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Kill puppets with sharp tools",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 7,
+      "TargetCharacters": [
+        "Puppet",
+        "BP_Zombie_Civilian_Fat_Female",
+        "BP_Zombie_Civilian_Fat_Male",
+        "BP_Zombie_Civilian_Muscular_Female",
+        "BP_Zombie_Civilian_Muscular_Male",
+        "BP_Zombie_Civilian_Normal_Male",
+        "BP_Zombie_Civilian_Skinny_Female",
+        "BP_Zombie_Civilian_Skinny_Male",
+        "BP_Zombie_Hospital_Fat",
+        "BP_Zombie_Hospital_Female",
+        "BP_Zombie_Hospital_Muscle",
+        "BP_Zombie_Hospital_Normal",
+        "BP_Zombie_Military_Armored",
+        "BP_Zombie_Military_Female",
+        "BP_Zombie_Military_Muscle",
+        "BP_Zombie_Nuclear",
+        "BP_Zombie_Nuclear_Fat_Female",
+        "BP_Zombie_Nuclear_Fat_Male",
+        "BP_Zombie_Nuclear_Muscular_Female",
+        "BP_Zombie_Police_Armored",
+        "BP_Zombie_Police_Fat",
+        "BP_Zombie_Police_Female",
+        "BP_Zombie_Police_Muscle",
+        "BP_Zombie_SuicideVest"
+      ],
+      "AllowedWeapons": [
+        "1H_DannyMachete",
+        "1H_Cleaver",
+        "1H_Bushman",
+        "1H_Empossible_Knife",
+        "1H_Hatchet",
+        "1H_Hunter",
+        "1H_Improvised_metal_knife",
+        "1H_ImprovisedKnife",
+        "1H_KitchenKnife",
+        "1H_KitchenKnife_02",
+        "1H_KitchenKnife_03",
+        "1H_KitchenKnife_04",
+        "1H_Medieval_Sword",
+        "1H_Metal_Sword",
+        "1H_MK5000_Metal",
+        "1H_MK5000_Black",
+        "1H_RaymondCruz_Knife",
+        "1H_Scalpel",
+        "1H_Scout_White",
+        "1H_Scout_Black",
+        "1H_Small_Axe",
+        "1H_Stone_Axe",
+        "1H_Traynors_Axe",
+        "2H_Axe",
+        "2H_Katana",
+        "2H_Katana1",
+        "2H_La_Hacha_Axe",
+        "2H_Metal_Axe",
+        "2H_Stone_Axe",
+        "2H_Tang_Dao",
+        "2H_Tang_Dao_Black_Dragon",
+        "2H_Tang_Dao_Damascus",
+        "Improvised_Metal_Spear",
+        "Improvised_Stone_Spear",
+        "Improvised_Wooden_Spear",
+        "Wushu_Spear_Metal",
+        "Wushu_Spear_Wooden"
+      ]
+    }
+  ]
+}

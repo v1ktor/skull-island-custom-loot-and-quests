@@ -1,0 +1,34 @@
+{
+    "Name": "ItemLootTreeNodes",
+    "Children": [
+        {
+            "Name": "M82A1s",
+            "Rarity": "Uncommon",
+            "ChildrenMergeMode": "Replace",
+            "Children": [
+                {
+                    "Name": "Weapons",
+                    "Rarity": "VeryRare",
+                    "Children": [
+                        {
+                            "Name": "Weapon_M82A1",
+                            "Rarity": "VeryRare"
+                        },
+                        {
+                            "Name": "Weapon_M82A1_Snow",
+                            "Rarity": "VeryRare"
+                        },
+                        {
+                            "Name": "Weapon_M82A1_Black",
+                            "Rarity": "VeryRare"
+                        },
+                        {
+                            "Name": "Weapon_M82A1_Desert",
+                            "Rarity": "VeryRare"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

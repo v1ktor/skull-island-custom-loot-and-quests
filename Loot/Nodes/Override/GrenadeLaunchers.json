@@ -1,0 +1,48 @@
+{
+    "Name": "ItemLootTreeNodes",
+    "Children": [
+        {
+            "Name": "GrenadeLaunchers",
+            "Rarity": "VeryRare",
+            "ChildrenMergeMode": "Replace",
+            "Children": [
+                {
+                    "Name": "Weapons",
+                    "Rarity": "VeryRare",
+                    "Children": [
+                        {
+                            "Name": "Weapon_AT4_HEAT",
+                            "Rarity": "VeryRare"
+                        },
+                        {
+                            "Name": "Weapon_RPG7",
+                            "Rarity": "VeryRare"
+                        },
+                        {
+                            "Name": "Weapon_VHS_BG",
+                            "Rarity": "VeryRare"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Explosives",
+                    "Rarity": "Rare",
+                    "Children": [
+                        {
+                            "Name": "Cal_40_PG-7M",
+                            "Rarity": "Rare"
+                        },
+                        {
+                            "Name": "Cal_40x46",
+                            "Rarity": "VeryRare"
+                        },
+                        {
+                            "Name": "Frag_Grenade",
+                            "Rarity": "Rare"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

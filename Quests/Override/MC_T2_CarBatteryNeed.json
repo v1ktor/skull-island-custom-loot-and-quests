@@ -1,0 +1,46 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "The Power to Start",
+  "Description": "I'm in need for a Car Battery. Can you fetch me one?",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1050,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Driving",
+          "Experience": 20000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Car_Jack",
+          "Price": 1500,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Car Battery",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Car_Battery"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

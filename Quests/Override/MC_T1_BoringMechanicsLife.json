@@ -1,0 +1,32 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 1,
+  "Title": "Boring Mechanics Life",
+  "Description": "Sometimes when I’m tinkering with the prisoners’ broken cars, I get really bored! A little music would help, I think. Could you get me something? I already have the latest tape from Avenging Records, lol.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 650,
+      "Fame": 5
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring Boom Box 1x",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "BoomBox_01"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

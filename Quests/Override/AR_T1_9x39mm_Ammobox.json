@@ -1,0 +1,42 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "9x39mm Ammobox",
+  "Description": "9x39mm ammoboxes are out of stock, so I am actually bothered to ask someone to find some more like about 3.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2700,
+      "Fame": 5,
+      "TradeDeals": [
+        {
+          "Item": "Cal_7_62x39mm_Ammobox",
+          "Price": 900,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 3 ammoboxes 9x39mm",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Cal_9x39mm_Ammobox",
+            "Cal_9x39mm_Ammobox_TR",
+            "Cal_9x39mm_AP_Ammobox"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

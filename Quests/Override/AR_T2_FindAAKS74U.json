@@ -1,0 +1,52 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Little AK",
+  "Description": "The little brother of the AK family sells really well. REALLY well. I'm all out thought. If you could supply me with one of those i would be quite gratefull.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1650,
+      "Fame": 12,
+      "TradeDeals": [
+        {
+          "Item": "Weapon_SF19",
+          "Price": 1800,
+          "Amount": 1,
+          "Fame": 0
+        },
+        {
+          "Item": "Magazine_SF19",
+          "Price": 200,
+          "Amount": 3,
+          "Fame": 0
+        },
+        {
+          "Item": "WeaponSuppressor_Handgun",
+          "Price": 550,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring a AKS-74U",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Weapon_AKS_74U"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

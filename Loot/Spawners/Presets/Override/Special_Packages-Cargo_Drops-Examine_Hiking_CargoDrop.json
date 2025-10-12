@@ -1,0 +1,16 @@
+{
+	"FixedItems": [
+		"Military_Backpack_02_01",
+		"CombatBoots",
+		"MilitaryPants_01",
+		"Camouflage_Jacket_01",
+		"Military_Shirt_01",
+		"Utility_Belt_01",
+		"Tactical_Vest_01"
+	],
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 0,
+	"RandomDamage": 0,
+	"InitialUsage": 0,
+	"RandomUsage": 0
+}

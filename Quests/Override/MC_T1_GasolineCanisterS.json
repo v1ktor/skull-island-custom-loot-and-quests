@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 1,
+  "Title": "Looking for a small gasoline canister.",
+  "Description": "I need a small gasoline canister to sell my fuel. Can you fetch me one?",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 270,
+      "Fame": 8,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring small Gasoline Canister",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Gasoline_Canister_Small"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

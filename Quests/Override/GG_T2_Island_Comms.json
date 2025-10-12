@@ -1,0 +1,102 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Island Comms",
+  "Description": "It is crucial that we keep good communication around The Island, it will help us survive these TEC01 games they like to play with us. B2 airport is crucial, so I need someone to do a maintenance check there. It isn't complicated to find, but the place is full of sentries so I'll pay well.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 9000,
+      "Fame": 45,
+      "Skills": [
+        {
+          "Skill": "Stealth",
+          "Experience": 50000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "BaseExpansionKit_Lvl1",
+          "Price": 15000,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Perform a maintenance check on the airport generator",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Airport_05_Int.B_2_Airport_05_Int:PersistentLevel.SM_generator_2.StaticMeshComponent0",
+          "FallbackTransform": "-274377.218750,-35081.976562,35449.945312|0.000000,73.181671,0.000000|0.461000,0.461000,0.461000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Generator_RW_01/SM_generator_01.SM_generator_01",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 75,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -274509.406,
+            "Y": -35333.688,
+            "Z": 35792.699
+          },
+          "SizeFactor": 0.7
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Perform a maintenance check on the comm terminals at the control tower",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Airport_06_Int.B_2_Airport_06_Int:PersistentLevel.BP_Control_Tower_01_RW_INT_0.SM_Vintage_SecurityMonitor1_02 (ISMA)3_InstancedStaticMesh",
+          "FallbackTransform": "-251997.984375,-52415.285156,37322.085938|0.000000,-128.361389,0.000000|0.951000,0.951000,0.951000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/ScienceLab/Meshes/ScientificDevices/ControlPanel_Vintage/SM_Vintage_SecurityMonitor1_02.SM_Vintage_SecurityMonitor1_02"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Airport_06_Int.B_2_Airport_06_Int:PersistentLevel.BP_Control_Tower_01_RW_INT_0.SM_Vintage_SecurityMonitor1_01 (ISMA)3_InstancedStaticMesh",
+          "FallbackTransform": "-252082.203125,-52521.695312,37322.085938|0.000000,-128.361389,0.000000|0.951000,0.951000,0.951000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/ScienceLab/Meshes/ScientificDevices/ControlPanel_Vintage/SM_Vintage_SecurityMonitor1_01.SM_Vintage_SecurityMonitor1_01"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Airport_06_Int.B_2_Airport_06_Int:PersistentLevel.BP_Control_Tower_01_RW_INT_0.SM_Vintage_SecurityMonitor1_01 (ISMA)3_InstancedStaticMesh",
+          "FallbackTransform": "-252043.312500,-52848.472656,37322.085938|0.000000,-38.361359,0.000000|0.951000,0.951000,0.951000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/ScienceLab/Meshes/ScientificDevices/ControlPanel_Vintage/SM_Vintage_SecurityMonitor1_01.SM_Vintage_SecurityMonitor1_01",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Airport_06_Int.B_2_Airport_06_Int:PersistentLevel.BP_Control_Tower_01_RW_INT_0.SM_Vintage_SecurityMonitor1_02 (ISMA)3_InstancedStaticMesh",
+          "FallbackTransform": "-251936.906250,-52932.699219,37322.085938|0.000000,-38.361359,0.000000|0.951000,0.951000,0.951000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/ScienceLab/Meshes/ScientificDevices/ControlPanel_Vintage/SM_Vintage_SecurityMonitor1_02.SM_Vintage_SecurityMonitor1_02",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 4,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 75,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -251849.109,
+            "Y": -52571.809,
+            "Z": 37384.066
+          },
+          "SizeFactor": 0.7
+        }
+      ]
+    }
+  ]
+}

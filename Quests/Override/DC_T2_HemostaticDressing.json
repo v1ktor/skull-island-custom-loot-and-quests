@@ -1,0 +1,46 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "To Bleed or not to Bleed",
+  "Description": "I'm all out of Hemostatic Dressings. As I wait for someone to help out with that, I'll try not to kill too many of my patients. Your best bets are hospitals and pharmacies.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 850,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 18000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Emergency_bandage",
+          "Price": 350,
+          "Amount": 3,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring Hemostatic Dressing",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Hemostatic_Dressing"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

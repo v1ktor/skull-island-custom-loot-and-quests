@@ -1,0 +1,72 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Tales from the Backroom",
+  "Description": "I’ve got a patient bleeding out in the back room. I’ll need some supplies to take care of him. No rush, but please bring me a few things.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1800,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 15000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring Scalpel",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "1H_Scalpel"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Bring Good Scissors",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Scissors_01"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Bring 2 Pressure Dressings",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Pressure_Dressing"
+          ],
+          "RequiredNum": 2,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

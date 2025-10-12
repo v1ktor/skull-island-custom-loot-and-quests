@@ -1,0 +1,52 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Its Not What You Think",
+  "Description": "I need you to bring me a Dildo. I know, I know. Dont ask me about it!",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Camouflage",
+          "Experience": 18000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Tool_Box",
+          "Price": 800,
+          "Amount": 3,
+          "Fame": 0
+        },
+        {
+          "Item": "PenisWarmer_01",
+          "Price": 10,
+          "Amount": 2,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Dildo",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "1H_Dildo",
+            "1H_Beam_Dildo"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

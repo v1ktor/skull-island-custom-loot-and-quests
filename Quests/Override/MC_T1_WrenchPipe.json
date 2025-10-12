@@ -1,0 +1,38 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 1,
+  "Title": "Tighten the Bolts",
+  "Description": "Have you seen how long I’ve been working on this engine here? I should probably hold down the bolt on the other side if I want to finish this year. Could you get me a Wrench Pipe, please?",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 300,
+      "Fame": 8,
+      "Skills": [
+        {
+          "Skill": "Engineering",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Wrench Pipe",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "1H_Pipe_Wrench"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 60.0
+        }
+      ]
+    }
+  ]
+}

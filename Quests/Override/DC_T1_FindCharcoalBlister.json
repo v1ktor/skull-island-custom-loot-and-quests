@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "In Need of some Activated Charcoal",
+  "Description": "I need some Activated Charcoal Blisters to sell.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 600,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring an Activated Charcoal Blister",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "ActivatedCharcoal_01"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 4,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "Dirtbike Hellrider",
+  "Description": "I need some Hellrider Dirtbike variant parts. Could you bring me some?",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 600,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Motorcycle",
+          "Experience": 20000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "BPC_MountainBike",
+          "Price": 4999,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring Dirtbike Hellrider Skull",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Dirtbike_Hellrider_Skull_Item"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Bring Dirtbike Brake Light",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Dirtbike_Brakelight_Item"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

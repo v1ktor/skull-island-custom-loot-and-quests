@@ -1,0 +1,42 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "45 ACP Ammobox",
+  "Description": ".45 ACP ammoboxes are out of stock, but you can find them anywhere really, bring me 3 of them and get a reward.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1600,
+      "Fame": 5,
+      "TradeDeals": [
+        {
+          "Item": "Cal_7_62x39mm_Ammobox",
+          "Price": 900,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 3 Ammoboxes of .45 ACP",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Cal_45_Ammobox",
+            "Cal_45_Ammobox_TR",
+            "Cal_45_AP_Ammobox"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

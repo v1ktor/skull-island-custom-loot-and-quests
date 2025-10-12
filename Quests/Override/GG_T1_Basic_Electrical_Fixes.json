@@ -1,0 +1,48 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Basic Electrical Fixes",
+  "Description": "We are running out of electrician tools since having to repair some of the damages caused by hordes and bandits. I got a reward if you can help me with bringing me 1 Electrician Tools.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 750,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Engineering",
+          "Experience": 12500
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Smartphone_Battery",
+          "Price": 350,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Electrician Tools",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Electrician_Tools"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 15,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

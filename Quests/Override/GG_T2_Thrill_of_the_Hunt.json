@@ -1,0 +1,74 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Thrill of the Hunt",
+  "Description": "Seems like we got a bit of a problem with bears and wolves attacking more than usuall but that might be a nice oportunity. If you brave enough i got a prize for whoever kills 1 bear or wolf and brings me their animal skin and animal guts.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2500,
+      "Fame": 25,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 25000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Military_Backpack_02_01",
+          "Price": 700,
+          "Amount": 2,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Kill 1 Bear or Wolf",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 1,
+      "TargetCharacters": [
+        "BP_Bear2",
+        "BP_Wolf3"
+      ]
+    },
+    {
+      "TrackingCaption": "Bring Animal Skin",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Animal_skin"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Bring Big or Small Animal Guts",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Big_Animal_guts",
+            "Small_Animal_guts"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

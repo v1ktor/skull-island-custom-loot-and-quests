@@ -1,0 +1,47 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Basic Charging",
+  "Description": "Im in need of a charging device to keep some batteries charged for my customers maybe you can use your skills to assemble me 2 small battery chargers.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 850,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Engineering",
+          "Experience": 12500
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Smartphone_Battery",
+          "Price": 350,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 2 Crafted Small Battery Chargers",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Battery_Charger_Small"
+          ],
+          "RequiredNum": 2,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "Treating the Injured",
+  "Description": "People getting injured quite alot and im running out of bandages. Can you bring me some?",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 750,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 3 Emergency Bandage",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Emergency_bandage"
+          ],
+          "RequiredNum": 3,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

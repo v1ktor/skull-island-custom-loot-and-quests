@@ -1,0 +1,41 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "12 Gauge Ammobox",
+  "Description": "12 gauge ammoboxes are out of stock but just the good ones like buckshot and slugs. There is a reward if you can provide me with 3 ammoboxes of either buckshot or slugs.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1200,
+      "Fame": 5,
+      "TradeDeals": [
+        {
+          "Item": "Bulletproof_Vest_01",
+          "Price": 1000,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 3 ammoboxes of buckshot or slugs",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "12_Gauge_Slug_Ammobox",
+            "12_Gauge_Buckshot_Ammobox"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

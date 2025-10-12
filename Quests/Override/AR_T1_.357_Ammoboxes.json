@@ -1,0 +1,42 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": ".357 Ammoboxes",
+  "Description": ".357 ammoboxes are about to run out of stock. Shame. I'll give you something if you change that and bring me 3 ammoboxes of .357 ammo.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1200,
+      "Fame": 5,
+      "TradeDeals": [
+        {
+          "Item": "Cal_30-06_Ammobox",
+          "Price": 650,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 3 ammoboxes of .357",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Cal_357_Ammobox",
+            "Cal_357_Ammobox_AP",
+            "Cal_357_Ammobox_TR"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

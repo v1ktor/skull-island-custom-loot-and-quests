@@ -1,0 +1,47 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Finding North for Luthais",
+  "Description": "Luthais has finally admitted what we’ve all known for a while he’s so old that every direction feels like “back in my day.” Last week he followed a squirrel for three hours thinking it was leading him to the outpost. Yesterday, he tried to navigate by the sun… at midnight. To save him from walking in circles until the end of time, bring him a proper Advanced Compass. With it, maybe he’ll finally find North or at least stop calling every road the good old shortcut.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2000,
+      "Fame": 20,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 25000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "BaseExpansionKit_Lvl2",
+          "Price": 25000,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring an Advanced Compass",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Compass_Advanced"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

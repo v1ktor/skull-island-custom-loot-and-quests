@@ -1,0 +1,38 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "Bloody Hands",
+  "Description": "I can't stand that blood on my hands all the time! Can you bring me some Medical Gloves? But they need to be in good shape (<80%)",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 600,
+      "Fame": 7,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring Medical Gloves min. 80%",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Medical_Glove_01"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 80.0
+        }
+      ]
+    }
+  ]
+}

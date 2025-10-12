@@ -1,0 +1,46 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "Two Wheel Body Fix",
+  "Description": "I need a Dirtbike Body to fix one i got yesterday. Can you bring me one?",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1050,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Motorcycle",
+          "Experience": 20000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Car_Repair_Kit",
+          "Price": 1200,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring any Dirtbike Body",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Dirtbike_Body_Hellrider_Item",
+            "Dirtbike_Body_Item"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

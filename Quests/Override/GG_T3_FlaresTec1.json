@@ -1,0 +1,49 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 3,
+  "Title": "Tec1 Flare Deal",
+  "Description": " I’ve secured a major contract from Tec1. They’re running out of flares for the cargo drops. If you can get me 50 units, I’ll provide you with a black-yellow screwdriver so you’re well equipped when they land on the island.",
+  "TimeLimitHours": 96.0,
+  "RewardPool": [
+    {
+      "Fame": 35,
+      "Skills": [
+        {
+          "Skill": "Thievery",
+          "Experience": 50000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Screwdriver",
+          "Price": 4000,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 50 Flares",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "FlareItem",
+            "FlareItem_Blue",
+            "FlareItem_Green"
+          ],
+          "RequiredNum": 50,
+          "MinAcceptedItemUses": 1,
+          "MinAcceptedItemHealth": 35.0
+        }
+      ]
+    }
+  ]
+}

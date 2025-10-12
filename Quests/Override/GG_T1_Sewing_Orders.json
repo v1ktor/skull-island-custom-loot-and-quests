@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Sewing Orders",
+  "Description": "Patched clothes are better than no clothes and they, unfortunately, can't be patched without a propper sewing kit. I need you to bring me 1 Sewing Kit.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 650,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Sewing Kits ",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Sewing_kit"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 10,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

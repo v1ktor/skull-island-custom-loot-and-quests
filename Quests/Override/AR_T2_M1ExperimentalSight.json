@@ -1,0 +1,38 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "WW2 Experimental Sights",
+  "Description": "I love these WW2 sights. Bring me two of them and i reward you.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Sniping",
+          "Experience": 20000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 2 M1 Experimental Sights",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "WeaponSights_M1_Experimental"
+          ],
+          "RequiredNum": 2,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

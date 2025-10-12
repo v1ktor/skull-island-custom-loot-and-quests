@@ -1,0 +1,71 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Anti Poison Meds",
+  "Description": "Im running out of medication to treat intoxication and radiation sickness. Bring me a Box of Activated Charcoal and Potassium Iodide.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 18000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Emergency_bandage",
+          "Price": 350,
+          "Amount": 3,
+          "Fame": 0
+        },
+        {
+          "Item": "Emergency_bandage_Big",
+          "Price": 1550,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Activated Charcoal Box",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "ActivatedCharcoal_02"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 10,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Bring 1 Potassium Iodide Box",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "PotassiumIodide_Pills_02"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 10,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

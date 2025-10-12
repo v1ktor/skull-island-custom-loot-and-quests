@@ -1,0 +1,46 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Basic Security",
+  "Description": "Those pesky thiefs keep stealing some of my merchandise and im getting quite annoyed. I need you to bring me 1 iron lock so i can secure some of my stock.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 750,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Thievery",
+          "Experience": 15000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Screwdriver_Small",
+          "Price": 600,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Iron Lock",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Lock_Item_Basic"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

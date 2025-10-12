@@ -1,0 +1,46 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "The ACOG",
+  "Description": "The ACOG was originally designed to be used on the M16 but it can be mounted on other guns. It is a nice fixed magnification scope thats definetly quite handy to have for medium range fights. I would apreciate you if you can fetch me 2 of those.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1650,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Sniping",
+          "Experience": 20000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "WeaponScope_Dragunov",
+          "Price": 1900,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 2 ACOG Scopes",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "WeaponScope_ACOG_01"
+          ],
+          "RequiredNum": 2,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

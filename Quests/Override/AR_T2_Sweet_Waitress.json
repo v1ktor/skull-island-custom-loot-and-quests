@@ -1,0 +1,59 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Sweet Waitress",
+  "Description": "I asked the sweet waitress at the bar out on a date, but she’ll only say yes if I get her something nice to wear. Her doors may always be open, but if you help me out, it’ll be worth your while.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 950,
+      "Fame": 15,
+      "TradeDeals": [
+        {
+          "Item": "Cal_7_62x54mmR_Ammobox",
+          "Price": 1000,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring a Pair of High Heel Boots",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "HH_Boots_01"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 75.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Bring a Skirt",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Skirt_01_01",
+            "Skirt_01_02",
+            "Skirt_01_03"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 75.0
+        }
+      ]
+    }
+  ]
+}

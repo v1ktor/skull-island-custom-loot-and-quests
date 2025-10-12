@@ -1,0 +1,65 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Moderate Pain",
+  "Description": "Im running out of medication to treat pain and infections. I need Antibiotics and Painkillers Boxes.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 18000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Hemostatic_Dressing",
+          "Price": 800,
+          "Amount": 2,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Antibiotics Box",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Antibiotics_02"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 10,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Bring 1 Painkillers Box",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Painkillers_02"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 10,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

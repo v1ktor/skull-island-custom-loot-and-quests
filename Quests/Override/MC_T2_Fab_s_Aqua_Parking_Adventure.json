@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "Fab’s Aqua Parking Adventure",
+  "Description": "Fab swears he’s a professional driver, but his definition of a “parking spot” includes large bodies of water. After mistaking the lake for an oversized blue parking lot, his car is now enjoying a swim. I need you to bring me 2 Car Repair Kits and if you happen to encounter Fab you could explain to him why fish don’t need seatbelts, and maybe introduce him to the revolutionary concept of dry land.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2000,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Driving",
+          "Experience": 20000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 2 Car Repair Kits",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Car_Repair_Kit"
+          ],
+          "RequiredNum": 2,
+          "MinAcceptedItemUses": 10,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

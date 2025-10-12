@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "In Need of some Painkillers",
+  "Description": "I need more Painkillers to sell. Can you bring me some?",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 600,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring a Painkiller Blister",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Painkillers_01"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 4,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

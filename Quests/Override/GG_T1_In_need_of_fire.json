@@ -1,0 +1,40 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "In need of fire",
+  "Description": "Hey there i need you to bring me some items that are worth their price in fire you know as the arsonists do like to use those alot. Bring me 3 lighters or matches.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 600,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 12500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 3 Lighters/Matches",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Lighter",
+            "Matches"
+          ],
+          "RequiredNum": 3,
+          "MinAcceptedItemUses": 5,
+          "MinAcceptedItemHealth": 25.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "Find Potassium Iodide - Blister",
+  "Description": "I need more Potassium Iodide pills can you bring me some?",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 400,
+      "Fame": 7,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring a Potassium Iodide Blister",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "PotassiumIodide_Pills_01"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 4,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

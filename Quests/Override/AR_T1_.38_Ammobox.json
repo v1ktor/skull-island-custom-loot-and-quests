@@ -1,0 +1,42 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": ".38 Ammobox",
+  "Description": ".38 ammoboxes are about to run out of stock, how im supposed to keep the peace around here? Time to restock with your help if you bring me 3 ammoboxes of .38.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1250,
+      "Fame": 5,
+      "TradeDeals": [
+        {
+          "Item": "Cal_5_45x39mm_Ammobox",
+          "Price": 700,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 3 ammoboxes of .38",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Cal_38_Ammobox",
+            "Cal_38_Ammobox_AP",
+            "Cal_38_Ammobox_TR"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

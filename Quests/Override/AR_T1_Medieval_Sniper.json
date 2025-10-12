@@ -1,0 +1,75 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "Medieval Sniper",
+  "Description": "What type of sniper existed in medieval times? An Archer for sure. An arrow for each puppet seems appropriate. I'm sure you can do it, and I will even pay you.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Archery",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Kill puppets with bows",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 7,
+      "TargetCharacters": [
+        "Puppet",
+        "BP_Zombie_Civilian_Fat_Female",
+        "BP_Zombie_Civilian_Fat_Male",
+        "BP_Zombie_Civilian_Muscular_Female",
+        "BP_Zombie_Civilian_Muscular_Male",
+        "BP_Zombie_Civilian_Normal_Male",
+        "BP_Zombie_Civilian_Skinny_Female",
+        "BP_Zombie_Civilian_Skinny_Male",
+        "BP_Zombie_Hospital_Fat",
+        "BP_Zombie_Hospital_Female",
+        "BP_Zombie_Hospital_Muscle",
+        "BP_Zombie_Hospital_Normal",
+        "BP_Zombie_Military_Armored",
+        "BP_Zombie_Military_Female",
+        "BP_Zombie_Military_Muscle",
+        "BP_Zombie_Nuclear",
+        "BP_Zombie_Nuclear_Fat_Female",
+        "BP_Zombie_Nuclear_Fat_Male",
+        "BP_Zombie_Nuclear_Muscular_Female",
+        "BP_Zombie_Police_Armored",
+        "BP_Zombie_Police_Fat",
+        "BP_Zombie_Police_Female",
+        "BP_Zombie_Police_Muscle",
+        "BP_Zombie_SuicideVest"
+      ],
+      "AllowedWeapons": [
+        "Compound_Bow",
+        "Compound_Bow_Desert",
+        "Compound_Bow_Digital",
+        "Compound_Bow_Snow",
+        "Compound_Bow_Woodland",
+        "Compound_Bow_US_Scorpion",
+        "Improvised_Bow",
+        "Improvised_Bow_25",
+        "Improvised_Bow_30",
+        "Improvised_Bow_35",
+        "Manchu_Bow_50",
+        "Recurve_Bow",
+        "Recurve_Bow_100",
+        "Recurve_Bow_50",
+        "Recurve_Bow_60",
+        "Recurve_Bow_70",
+        "Recurve_Bow_80",
+        "Recurve_Bow_90",
+        "Takedown_Bow"
+      ]
+    }
+  ]
+}

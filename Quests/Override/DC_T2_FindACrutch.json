@@ -1,0 +1,46 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Broken Legs",
+  "Description": "Over 62.5% of prisoners get heir legs messed up at some point. Okay, I just made that up, but you get the point. I need more crutches in stock. I have a reward ready if you can bring me one.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 950,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 18000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Painkillers_01",
+          "Price": 1500,
+          "Amount": 2,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Crutch",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Crutch"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

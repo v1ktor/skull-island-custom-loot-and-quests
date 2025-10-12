@@ -1,0 +1,12 @@
+{
+	"FixedItems": [
+		"Bundle_Of_Improvised_Lockpicks",
+		"Screwdriver_Small",
+		"Screwdriver_Small"
+	],
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 0,
+	"RandomDamage": 0,
+	"InitialUsage": 0,
+	"RandomUsage": 0
+}

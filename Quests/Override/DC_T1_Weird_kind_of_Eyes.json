@@ -1,0 +1,46 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "Weird kind of Eyes",
+  "Description": "This might look like a weird request to you but i need to do some research into these puppets and i need your help if you are up to the task. I need you to bring me 6 Puppet Eyes.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 750,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 15000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Antibiotic_Pill_Single",
+          "Price": 50,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring Puppet Eyes",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Puppet_Eye"
+          ],
+          "RequiredNum": 6
+        }
+      ]
+    }
+  ]
+}

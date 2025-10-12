@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "I'ts my Birthday!",
+  "Description": "Im having Birthday soon and i want to pop some Fireworks at that Party. You not invited but ill pay you for bringing me what i need!",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 700,
+      "Fame": 7,
+      "Skills": [
+        {
+          "Skill": "Demolition",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Fireworks Big",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Fireworks_Big"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 1,
+          "MinAcceptedItemHealth": 40.0
+        }
+      ]
+    }
+  ]
+}

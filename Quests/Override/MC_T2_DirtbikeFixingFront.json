@@ -1,0 +1,62 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "Dirtbike Spare Parts",
+  "Description": "I'm in need for some Dirtbike Parts. Can you fetch me some?",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 900,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Motorcycle",
+          "Experience": 20000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Car_Repair_Kit",
+          "Price": 1200,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring Dirtbike Fender",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Dirtbike_Fender_Item"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Bring Dirtbike Wheel",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Dirtbike_Wheel_90_90_R21_Item",
+            "Dirtbike_Wheel_110_80_R19_Item"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

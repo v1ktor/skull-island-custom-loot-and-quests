@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 1,
+  "Title": "Jumpstarter",
+  "Description": "I'm in need for some Battery Cables. Can you bring me 2?",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 800,
+      "Fame": 8,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 2 Car Battery Cables",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Car_Battery_Cables"
+          ],
+          "RequiredNum": 2
+        }
+      ]
+    }
+  ]
+}

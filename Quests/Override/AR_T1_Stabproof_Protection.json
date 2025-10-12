@@ -1,0 +1,40 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "Stabproof Protection",
+  "Description": "No one likes to get stabbed in the back and neither do my clients. Bring me 1 stabproof vest and get a prize.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 650,
+      "Fame": 5
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 1 Stabproof Vest",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Stabproof_Vest_01_01",
+            "Stabproof_Vest_01_02",
+            "Stabproof_Vest_01_03",
+            "Stabproof_Vest_01_04",
+            "Stabproof_Vest_01_05",
+            "Stabproof_Vest_01_06",
+            "Stabproof_Vest_01_08",
+            "Stabproof_Vest_01_07",
+            "Stabproof_Vest_01_09"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

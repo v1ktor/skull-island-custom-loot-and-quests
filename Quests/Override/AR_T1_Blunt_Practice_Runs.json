@@ -1,0 +1,81 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "Blunt Practice Runs",
+  "Description": "You know what's annoying? Puppets are. Everyone should get acquanted with smashing their heads in, so why not practice a bit? Take a blunt weapon and have some fun.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "MeleeWeapons",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Kill Puppets with blunt tools",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 7,
+      "TargetCharacters": [
+        "Puppet",
+        "BP_Zombie_Civilian_Fat_Female",
+        "BP_Zombie_Civilian_Fat_Male",
+        "BP_Zombie_Civilian_Muscular_Female",
+        "BP_Zombie_Civilian_Muscular_Male",
+        "BP_Zombie_Civilian_Normal_Male",
+        "BP_Zombie_Civilian_Skinny_Female",
+        "BP_Zombie_Civilian_Skinny_Male",
+        "BP_Zombie_Hospital_Fat",
+        "BP_Zombie_Hospital_Female",
+        "BP_Zombie_Hospital_Muscle",
+        "BP_Zombie_Hospital_Normal",
+        "BP_Zombie_Military_Armored",
+        "BP_Zombie_Military_Female",
+        "BP_Zombie_Military_Muscle",
+        "BP_Zombie_Nuclear",
+        "BP_Zombie_Nuclear_Fat_Female",
+        "BP_Zombie_Nuclear_Fat_Male",
+        "BP_Zombie_Nuclear_Muscular_Female",
+        "BP_Zombie_Police_Armored",
+        "BP_Zombie_Police_Fat",
+        "BP_Zombie_Police_Female",
+        "BP_Zombie_Police_Muscle",
+        "BP_Zombie_SuicideVest"
+      ],
+      "AllowedWeapons": [
+        "Sledgehammer",
+        "Faceroll_Smasher",
+        "2H_Shovel_02",
+        "2H_Shovel_01",
+        "2H_Pickaxe",
+        "2H_Pitchfork",
+        "2H_Pitchfork_Bent",
+        "2H_Metal_Baseball_Bat",
+        "2H_Improvised_shovel",
+        "2H_Improvised_metal_shovel",
+        "2H_Baseball_Bat_with_wire",
+        "2H_Baseball_Bat_with_spikes",
+        "2H_Baseball_Bat_Blaze",
+        "2H_Baseball_Bat",
+        "1H_Wooden_club_with_wire",
+        "1H_Wooden_club_with_spikes",
+        "1H_Wooden_club",
+        "1H_Metal_Pipe",
+        "1H_Little_Spade",
+        "1H_Pipe_Wrench",
+        "1H_Police_Baton",
+        "1H_Improvised_Hammer",
+        "1H_Crowbar",
+        "1H_Beam_Dildo",
+        "1H_Dildo"
+      ]
+    }
+  ]
+}

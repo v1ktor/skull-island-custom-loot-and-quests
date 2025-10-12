@@ -1,0 +1,47 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Night Time Story",
+  "Description": "If you go hunting in the dark with no equipment, you're gonna end up being hunted. I keep selling the Googles, and my customers keep forgetting the batteries, but profit is profit.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2150,
+      "Fame": 12,
+      "Skills": [
+        {
+          "Skill": "Stealth",
+          "Experience": 20000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "WeaponScope_Spektral_DR",
+          "Price": 1900,
+          "Amount": 2,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring Night Vision Goggles",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Night_Vision_Goggles_01"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

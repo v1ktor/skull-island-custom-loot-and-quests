@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Time to thin out the herd now",
+  "Description": "Currently I have too many customers. I need to push the prices of my goods up a bit — off the record, of course. If there are fewer prisoners, I can sell everything at a higher price. New prisoners show up every day anyway lol. Bring me a few BCU chips and I’ll show you how to handle rifles properly.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2000,
+      "Fame": 25,
+      "Skills": [
+        {
+          "Skill": "Rifles",
+          "Experience": 100000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring 20 BCU Chips",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "BCU_Chip"
+          ],
+          "RequiredNum": 20
+        }
+      ]
+    }
+  ]
+}

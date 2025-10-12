@@ -1,0 +1,40 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Woodworker's Best Friend",
+  "Description": "Im in need of some wood and no i dont need you to bring me wood im more interested in some tools for the job so bring me a nice axe.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 750,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 12500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Bring an Axe",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "1H_Small_Axe",
+            "2H_Axe",
+            "1H_Traynors_Axe"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 25.0
+        }
+      ]
+    }
+  ]
+}
