@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.2] - 2025-10-12
+### Changed
+- [Loot] - Removed Flares and Binoculars from lockers that require lock picking
+
 ## [0.1.1] - 2025-10-12
 ### Changed
 - [Loot - Cargo Drop]:
