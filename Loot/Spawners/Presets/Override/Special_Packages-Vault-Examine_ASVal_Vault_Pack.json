@@ -1,0 +1,17 @@
+{
+  "FixedItems": [
+    "Weapon_AS_Val",
+    "Weapon_VSS_VZ",
+    "WeaponSights_OKP-7_Holographic",
+    "WeaponSights_OKP-7_Holographic",
+    "ScopeRail_AK47",
+    "ScopeRail_AK47",
+    "WeaponFlashlight_AS_Val",
+    "WeaponFlashlight_AS_Val"
+  ],
+  "ShouldApplyLocationSpecificDamageModifier": true,
+  "InitialDamage": 0,
+  "RandomDamage": 0,
+  "InitialUsage": 0,
+  "RandomUsage": 0
+}

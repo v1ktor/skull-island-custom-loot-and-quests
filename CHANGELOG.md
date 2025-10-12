@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.2.0] - 2025-10-12
+
+### Added
+- [Loot - Brenners Armory]
+  - SCAR L pack
+  - PG-7M pack
+
+### Changed
+- [Loot - Brenners Armory]:
+  - Military pack 1 to have DAO Sword, Black Ghillie, Night Vision with Battery and Grinding Stone
+  - AS Val and VSS to have double rail, double OKP sights and double flashlights
+  - AWM and AWP ammo packs to have 4 magazines and 2 ammo boxes
+  - M249 ammo pack to have 2 magazines and 7 ammo boxes of 5.56x45mm
+  - Removed non-attachable sights from M249 gun pack and added red dot instead
+  - RPK gun pack now have a suppressor
+  - Removed 1 magazine and 1 ammo box from SCAR DMR ammo pack
+  - SVD ammo pack to have 4 magazines and 2 ammo boxes
+
+### Removed
+- [Loot - Brenners Armory]:
+  - VHS non-rail pack
+  - Military packs 2 and 3
+
 ## [0.1.2] - 2025-10-12
 ### Changed
 - [Loot] - Removed Flares and Binoculars from lockers that require lock picking

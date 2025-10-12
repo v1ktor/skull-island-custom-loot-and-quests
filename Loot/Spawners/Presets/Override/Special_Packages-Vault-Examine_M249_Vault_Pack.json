@@ -1,0 +1,12 @@
+{
+	"FixedItems": [
+		"Weapon_M249",
+		"WeaponSuppressor_MK18",
+        "WeaponSights_RedDot_CA401B"
+	],
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 0,
+	"RandomDamage": 0,
+	"InitialUsage": 0,
+	"RandomUsage": 0
+}
