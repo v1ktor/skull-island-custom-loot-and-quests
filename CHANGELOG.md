@@ -14,7 +14,7 @@
   - AWM and AWP ammo packs to have 4 magazines and 2 ammo boxes
   - M249 ammo pack to have 2 magazines and 7 ammo boxes of 5.56x45mm
   - Removed non-attachable sights from M249 gun pack and added red dot instead
-  - RPK gun pack now have a suppressor
+  - RPK gun pack now has a suppressor
   - Removed 1 magazine and 1 ammo box from SCAR DMR ammo pack
   - SVD ammo pack to have 4 magazines and 2 ammo boxes
 
