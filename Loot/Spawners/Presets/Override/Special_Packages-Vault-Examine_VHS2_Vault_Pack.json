@@ -1,0 +1,14 @@
+{
+	"FixedItems": [
+      "Weapon_SCAR_L",
+      "WeaponSights_RedDot_CA401B",
+      "WeaponScope_Spektral_DR",
+      "WeaponGhillie_Woodland",
+      "WeaponSuppressor_MK18"
+	],
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 0,
+	"RandomDamage": 0,
+	"InitialUsage": 0,
+	"RandomUsage": 0
+}
