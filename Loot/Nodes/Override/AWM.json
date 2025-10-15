@@ -1,0 +1,29 @@
+{
+  "Name": "ItemLootTreeNodes",
+  "Children": [
+    {
+      "Name": "AWMs",
+      "Rarity": "Uncommon",
+      "Children": [
+        {
+          "Name": "Weapons",
+          "Rarity": "Rare",
+          "Children": [
+            {
+              "Name": "Weapon_AWM",
+              "Rarity": "Rare"
+            },
+            {
+              "Name": "Weapon_AWM_Green",
+              "Rarity": "Rare"
+            },
+            {
+              "Name": "Weapon_AWM_Snake",
+              "Rarity": "Rare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
