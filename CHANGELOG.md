@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.1] - 2025-10-15
+
+- [Loot - Naval Base] - File Cabinets have a higher chance to spawn a Yellow Screwdriver
+
 ## [0.2.0] - 2025-10-12
 
 ### Changed
