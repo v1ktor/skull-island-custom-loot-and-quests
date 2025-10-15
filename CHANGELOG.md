@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.3] - 2025-10-16
+
+- [Loot - Duga House] - Added AK47 Engraved to green crates with high chance
+
 ## [0.2.2] - 2025-10-15
 
 - [Loot - Factory] - Replaced M82 with AWM with higher chance
