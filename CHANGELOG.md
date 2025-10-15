@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.2] - 2025-10-15
+
+- [Loot - Factory] - Replaced M82 with AWM with higher chance
+
 ## [0.2.1] - 2025-10-15
 
 - [Loot - Naval Base] - File Cabinets have a higher chance to spawn a Yellow Screwdriver
