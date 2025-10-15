@@ -2,17 +2,25 @@
 
 ## [0.2.4] - 2025-10-16
 
+### Changed
+
 - [Loot - Duga House] - Lockers can spawn Kar98 with high chance
 
 ## [0.2.3] - 2025-10-16
+
+### Changed
 
 - [Loot - Duga House] - Added AK47 Engraved to green crates with high chance
 
 ## [0.2.2] - 2025-10-15
 
+### Changed
+
 - [Loot - Factory] - Replaced M82 with AWM with higher chance
 
 ## [0.2.1] - 2025-10-15
+
+### Changed
 
 - [Loot - Naval Base] - File Cabinets have a higher chance to spawn a Yellow Screwdriver
 
